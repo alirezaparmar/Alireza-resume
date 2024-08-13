@@ -1,0 +1,40 @@
+.Content{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(131, 197, 197);
+  }
+  .Content2{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: lightgrey;
+  }
+  .Content3{
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+  }
+
+
+  @media only screen and (min-width: 768px) {
+  .Content3{
+    height: calc(110vh - 60px) !important;
+    
+  }
+  }

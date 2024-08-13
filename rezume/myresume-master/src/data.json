@@ -1,0 +1,110 @@
+{
+    "title":"Welcome - My name is iliya !",
+    "subtitle":"Full Stack | laravel | Python | React | Html | CSS  | JavaScript ",
+    "links":{
+        "Git":"",
+        "LinkedIn":"https://www.linkedin.com/in/shayan-ebrahimi/",
+        "Instagram":"https://www.instagram.com/shayan_trex/",
+        "Email":"mailto:iliyamehrfard@gmail.com"
+    },
+    "ids":{
+        "1":"SocialIcons1",
+        "2":"SocialIcons2",
+        "3":"SocialIcons3",
+        "4":"SocialIcons4",
+        "5":"SocialIcons5",
+        "6":"SocialIcons6"
+    },
+    "sections":[
+        {
+            "title":"About-Me",
+            "items":[
+                {
+                    "SectionType":"Paragraph",
+                    "OwnerName":"Shayan Ebrahimi",
+                    "Education":"Mechanical Engineer",
+                    "Degree":"BSC",
+                    "University":"IAU"
+                }
+            ]
+            
+        },
+        {
+            "title":"Technical-Skills",
+            "items":[
+                {
+                    "SectionType":"Box",
+                    "Content":{
+                        "title":"Php",
+                        "logo":"devicon-php-plain",
+                        "lenght":"8 Years"
+                    }
+
+                },                
+                {
+                    "SectionType":"Box",
+                    "Content":{
+                        "title":"MySql",
+                        "logo":"devicon-mysql-plain-wordmark",
+                        "lenght":"8 Years"
+                    }
+
+                }
+                ,                {
+                    "SectionType":"Box",
+                    "Content":{
+                        "title":"HTML",
+                        "logo":"devicon-html5-plain-wordmark",
+                        "lenght":"10 Years"
+                    }
+
+                }
+                ,                {
+                    "SectionType":"Box",
+                    "Content":{
+                        "title":"CSS",
+                        "logo":"devicon-css3-plain-wordmark",
+                        "lenght":"10 Years"
+                    }
+
+                },                {
+                    "SectionType":"Box",
+                    "Content":{
+                        "title":"JavaScript",
+                        "logo":"devicon-javascript-plain",
+                        "lenght":"4 Years"
+                    }
+
+                },               {
+                    "SectionType":"Box",
+                    "Content":{
+                        "title":"React",
+                        "logo":"devicon-react-original-wordmark",
+                        "lenght":"2 Years"
+                    }
+
+                },                {
+                    "SectionType":"Box",
+                    "Content":{
+                        "title":"Sass",
+                        "logo":"devicon-sass-original",
+                        "lenght":"2 Years"
+                    }
+
+                },                {
+                    "SectionType":"Box",
+                    "Content":{
+                        "title":"C++",
+                        "logo":"devicon-cplusplus-plain-wordmark",
+                        "lenght":"4 Years"
+                    }
+
+                }
+                
+            ]
+            
+        }
+    ]
+    
+
+}

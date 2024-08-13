@@ -1,0 +1,197 @@
+.header {
+  position: fixed;
+  top: 0px;
+  height: 60px;
+  width: 100vw;
+  background-color: darkcyan;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.UlLeft {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 20%;
+  margin-left: 1em;
+}
+
+.MagicWand {
+  font-size: 40px;
+  padding: 10px;
+  display: block;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 80%;
+  margin-right: 1em;
+}
+
+ul li a {
+  padding: 20px;
+  display: block;
+  font-size: 14px !important;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.WhetherStatus {
+  display: none;
+}
+
+.SocialIconDiv {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[3];
+      grid-template-columns: repeat(3, auto);
+}
+
+.SocialIcons {
+  margin: 1em;
+  background-color: white;
+  -webkit-box-shadow: 0 25px 30px 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 0 25px 30px 0 rgba(0, 0, 0, 0.4);
+  border: 0.5px solid whitesmoke;
+  border-radius: 50%;
+}
+
+.Avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  -webkit-box-shadow: 0 25px 30px 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 0 25px 30px 0 rgba(0, 0, 0, 0.4);
+}
+
+.SectionsTitle {
+  font-size: 24px !important;
+}
+
+.AboutMeSubTitile {
+  font-size: 22px !important;
+  font-weight: bold;
+}
+
+.AboutMe {
+  font-size: 20px !important;
+  font-weight: normal;
+}
+
+.SkilksContainer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (50%)[2];
+      grid-template-columns: repeat(2, 50%);
+}
+
+.devicon-php-plain,
+.devicon-mysql-plain-wordmark,
+.devicon-html5-plain-wordmark,
+.devicon-css3-plain-wordmark,
+.devicon-cplusplus-plain-wordmark,
+.devicon-javascript-plain,
+.devicon-react-original-wordmark,
+.devicon-sass-original,
+.devicon-cplusplus-plain-wordmark {
+  font-size: 3rem;
+}
+
+@media only screen and (min-width: 768px) {
+  ul li a {
+    padding: 20px !important;
+    font-size: 18px !important;
+  }
+  .UlLeft {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
+    margin-left: 1em;
+  }
+  ul {
+    -webkit-box-pack: end !important;
+        -ms-flex-pack: end !important;
+            justify-content: flex-end !important;
+    margin-right: 2em;
+  }
+  .WhetherStatus {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    margin-top: 23px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  .SocialIconDiv {
+    margin-top: 3em;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (auto)[3];
+        grid-template-columns: repeat(3, auto);
+  }
+  .Section1Splitter {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (50%)[2];
+        grid-template-columns: repeat(2, 50%);
+  }
+  .TitleSubtitle {
+    margin-top: 1em;
+  }
+  .Title {
+    font-size: 45px;
+  }
+  .Subtitle {
+    font-size: 25px;
+    margin: 1em;
+  }
+  .SectionsTitle {
+    margin-top: 1em !important;
+  }
+  .SkilksContainer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (25%)[4];
+        grid-template-columns: repeat(4, 25%);
+  }
+  .devicon-php-plain,
+  .devicon-mysql-plain-wordmark,
+  .devicon-html5-plain-wordmark,
+  .devicon-css3-plain-wordmark,
+  .devicon-cplusplus-plain-wordmark,
+  .devicon-javascript-plain,
+  .devicon-react-original-wordmark,
+  .devicon-sass-original,
+  .devicon-cplusplus-plain-wordmark {
+    font-size: 8rem;
+  }
+}
+/*# sourceMappingURL=Sections.css.map */
